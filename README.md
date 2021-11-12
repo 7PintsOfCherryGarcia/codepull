@@ -1,2 +1,8 @@
+# Let's Practice some pull requests
+
 # codepull
-Test repository for pull request tutorial
+Compute PCA from generic tables + metadata
+
+# Use
+
+python src/mypca.py testdata/jbcodes.txt testdata/md.txt PCs.txt
