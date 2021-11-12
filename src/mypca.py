@@ -12,14 +12,20 @@ def my_PCA(inputmat):
 
 def main():
     sys.stderr.write("mypca V 1.0.0\n")
-
     try:
         infilename = sys.argv[1]
         metadataname = sys.argv[2]
-        outfilename = sys.argv[3]
     except:
-        sys.stderr.write("Usage:\n python mypca.py <infile> <mdfile> <outfile>\n")
+        sys.stderr.write("Usage:\n python mypca.py <infile> <mdfile>\n")
         sys.exit(-1)
+        
+    try:    
+        outfilename = sys.argv[3]    
+    except:
+        outfilename = "default_out"
+        print("No output filename provided. Writing to :", outfilename)
+        pass
+    
 
     indata = easy_loadtable(infilename)
     metadata = easy_loadmetadata(metadataname)
