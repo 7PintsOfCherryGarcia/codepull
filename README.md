@@ -7,4 +7,4 @@ Compute PCA from generic tables + metadata
 
 python src/mypca.py testdata/jbcodes.txt testdata/md.txt PCs.txt
 
-# Lovro was here 
+Lovro was here 
