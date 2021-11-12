@@ -25,6 +25,7 @@ def main():
         outfilename = "default_out"
         pass
     
+
     indata = easy_loadtable(infilename)
     metadata = easy_loadmetadata(metadataname)
     outfile = open(outfilename, "w")
