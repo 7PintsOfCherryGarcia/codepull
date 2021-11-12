@@ -7,8 +7,8 @@ Compute PCA from generic tables + metadata
 
 python src/mypca.py testdata/jbcodes.txt testdata/md.txt PCs.txt
 
+# Name list - add your names here:
 
-
-# Students present today
-
+* Rasmus
+* 
 Roko Sango XD
