@@ -16,13 +16,14 @@ def main():
         infilename = sys.argv[1]
         metadataname = sys.argv[2]
     except:
-        sys.stderr.write("Error")
+        sys.stderr.write("Usage:\n python mypca.py <infile> <mdfile>\n")
         sys.exit(-1)
         
     try:    
         outfilename = sys.argv[3]    
     except:
         outfilename = "default_out"
+        print("No output filename provided. Writing to :", outfilename)
         pass
     
 
