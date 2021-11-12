@@ -12,7 +12,7 @@ def my_PCA(inputmat):
 
 def main():
     sys.stderr.write("mypca V 1.0.0\n")
-    
+
     try:
         infilename = sys.argv[1]
         metadataname = sys.argv[2]
